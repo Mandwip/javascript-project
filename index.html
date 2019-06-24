@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GORENTAL</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+            
+</head>
+<body>
+        
+            <nav class="z-depth-5">
+                    <div class="nav-wrapper">
+                            <a href="#" class="brand-logo">GORENTAL</a>
+                            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                              <li><a href="#">Home</a></li>
+                              <li><a href="#">Blog</a></li>
+                              <li><a href="#">Contact</a></li>
+                            </ul>
+                          </div>
+            </nav>
+          
+    <div class="container ">
+        <h1 class="text-center">
+           <i class=</i> Property List</h1>
+          <form id="book-form">
+            <div class="form-group">
+              <label for="name">NAME</label>
+              <input type="text" id="name" class="form-control">
+            </div>
+            <div class="form-group">
+              <label for="place">PLACE</label>
+              <input type="text" id="place" class="form-control">
+            </div>
+            <div class="form-group">
+                    <label for="price">Price</label>
+                    <input type="text" id="price" class="form-control">
+                  </div>
+            <input type="submit" value="Add Property" class="btn btn-primary btn-block">
+          </form>
+          <table class="table table-striped mt-5">
+            <thead>
+              <tr>
+                <li><a href="#">Services</a></li>
+                              <li><a href="#">Gallery</a></li>
+                              <li><a href="#">About us</a></li>
+              </tr>
+            </thead>
+            <tbody id="book-list"></tbody>
+          </table>
+      </div>
+    <script src="main.js"></script>
+</body>
+</html>
